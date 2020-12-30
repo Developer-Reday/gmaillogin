@@ -1,0 +1,152 @@
+/* ====================== */
+/* This code is Developer Reday */
+/* https://rabiulreday.xyz/ */
+/* ====================== */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+}
+
+ .template{ 
+    max-width: 532px;
+    margin: 0 auto;
+ } 
+.clearfix{
+    clear: both;
+}
+
+/* Main CSS */
+.mainBox{
+    border: 1px solid #DADCE0;
+    padding: 50px 40px;
+    text-align: center;
+    min-width: 450px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.mainBox h2{
+    font-size: 26px;
+    line-height: 32px;
+    color: #202124;
+    font-weight: 500;
+    margin: 8px 0 8px;
+}
+.mainBox h3{
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .1px;
+    color: #202124;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.mainBox .phone{
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #DADCE0;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.contentLeft{
+    text-align: left;
+}
+.contentLeft a{
+    color: #1A73E8;
+    font-size: 17px;
+    line-height: 13.7px;
+    letter-spacing: .3px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 50px;
+    display: inline-block;
+}
+.contentLeft p{
+    font-size: 17px;
+    line-height: 22px;
+    color: #5F6368;
+}
+
+.nextBtnDiv{
+    margin-bottom: 70px;
+}
+.nextBtnDiv .left{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.nextBtnDiv .right{
+    width: 50%;
+    float: right;
+    text-align: right;
+}
+.nextBtnDiv .left a{
+    color: #1A73E8;
+    font-size: 16px;
+    line-height: 13.7px;
+    letter-spacing: .3px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 15px;
+}
+.nextBtnDiv .right .NextBtn{
+    background-color: #1A73E8;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 30px;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: bold;
+}
+.nextBtnDiv .right .NextBtn:hover{
+    background-color: #287AE6;
+    box-shadow: 0px 0px 1px #287AE6;
+}
+
+/* Footer Part */
+footer{
+    margin-top: 25px;
+    padding-bottom: 40px;
+}
+footer .footLeft{
+    float: left;
+    width: 50%;
+}
+footer .footLeft select{
+    border: none;
+    color: #202124;
+    font-size: 12px;
+    line-height: 16.8px;
+}
+footer .footLeft select:hover{
+    text-decoration: underline;
+}
+footer .footRight{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+footer .footRight ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+footer .footRight ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+footer .footRight ul li a{
+    display: inline-block;
+    color: #757575;
+    text-decoration: none;
+}
+footer .footRight ul li a:hover{
+    text-decoration: underline;
+}
